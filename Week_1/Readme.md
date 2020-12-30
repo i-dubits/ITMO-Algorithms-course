@@ -6,9 +6,9 @@ Sort the array of integers in non-decreasing order. Only mutual permutation of a
 1e9. Print all the permutation that you have made. 
 
 
-*Time limit*  1 second
+*Time limit:*  1 second
 
-*Memory limit* 256 MB
+*Memory limit:* 256 MB
 
 
 
