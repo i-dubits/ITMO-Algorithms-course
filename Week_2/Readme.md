@@ -1,6 +1,6 @@
 # Week 2 problems
 
-- Number of inversions
+### Number of inversions
 
 Find number of inversions in a array of integers. Number of array elements n (1<=n<=1e5). Array elements are less than 1e9. 
 
