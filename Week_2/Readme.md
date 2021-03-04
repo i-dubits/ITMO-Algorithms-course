@@ -10,4 +10,4 @@ Find number of inversions in a array of integers. Number of array elements n (1<
 
 *Memory limit:* 256 MB
 
-file: `inv_number.cpp`
+*File:* `inv_number.cpp`
