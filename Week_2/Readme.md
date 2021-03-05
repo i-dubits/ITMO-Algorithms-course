@@ -14,6 +14,10 @@ Find number of inversions in a array of integers. Number of array elements is n 
 
 ### Anti quicksort
 
-Find permutation of numbers from 1 to n on which quicksort will perform the maximum number of comparisons. If there are several such permutations, output any of them (1&le;n&le;10<sup>6</sup>).
+Find permutation of numbers from 1 to n on which quicksort will perform the maximum number of comparisons. If there are several such permutations, output any of them (1&le;n&le;10<sup>6</sup>). Pivot element is chosen to be the middle element of the array.
 
+*Time limit:* 2 seconds
 
+*Memory limit:* 256 MB
+
+*File:* `anti_quicksort.cpp`
