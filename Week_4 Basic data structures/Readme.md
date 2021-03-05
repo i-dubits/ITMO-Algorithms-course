@@ -22,3 +22,13 @@ Input file contains the list of the following commands: "+" (add element to queu
 *Memory limit:* 256 MB
 
 *File:* `min_queue.cpp`
+
+### Polish postfix notation
+
+Evaluate the expression given in Polish postfix notation. Number of terms in expression (N&le;10<sup>6</sup>).
+
+*Time limit:* 2 seconds
+
+*Memory limit:* 256 MB
+
+*File:* `postfix.cpp`
