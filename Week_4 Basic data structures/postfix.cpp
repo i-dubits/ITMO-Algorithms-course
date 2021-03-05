@@ -1,10 +1,6 @@
 // Ilya Dubitskiy
 
 
-
-
-
-
 //#include "edx-io.hpp"
 
 #include "stdafx.h"
@@ -13,8 +9,6 @@
 #include <fstream>
 
 #include <stack> 
-
-
 
 
 int main()
