@@ -20,4 +20,4 @@ some text
 
 <img src="http://www.sciweavers.org/tex2img.php?eq=%5Ctext%7Bsin%28x%29%7D%20%2B%20%5Ctext%7Ba%7D%20%2B%20%5Cfrac%7Ba%7D%7Bb%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="\text{sin(x)} + \text{a} + \frac{a}{b} " width="115" height="40" />
 
-another text
+another texts
