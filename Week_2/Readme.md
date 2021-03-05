@@ -16,4 +16,4 @@ Find number of inversions in a array of integers. Number of array elements n (1<
 
 Find permutation of numbers from 1 to *n* on which quicksort will perform the maximum number of comparisons. If there are several such permutations, output any of them. 
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=sin(x^2)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?sin(x^2)" title="sin(x^2)" /></a>
+<img src="http://latex.codecogs.com/svg.latex?sin(x^2)" title="http://latex.codecogs.com/svg.latex?sin(x^2)" />
