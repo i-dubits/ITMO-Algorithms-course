@@ -2,7 +2,7 @@
 
 ### Number of inversions
 
-Find number of inversions in a array of integers. Number of array elements n, <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\dpi{100}&space;1\leq&space;n\leq&space;10^5" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{100}&space;1\leq&space;n\leq&space;10^5" title="1\leq n\leq 10^5" /></a> . Array elements are less than 1e9. 
+Find number of inversions in a array of integers. Number of array elements *n*, 1&le;n&le;1<sup>5. Array elements are less than 1<sup>9. 
 
 *Hint:* fast solution should use the modification of Merge sort.  
 
@@ -14,10 +14,6 @@ Find number of inversions in a array of integers. Number of array elements n, <a
 
 ### Anti quicksort
 
-Find permutation of numbers from 1 to *n* on which quicksort will perform the maximum number of comparisons. If there are several such permutations, output any of them <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;1\leq&space;n\leq&space;10^6" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;1\leq&space;n\leq&space;10^6" title="1\leq n\leq 10^6" /></a> 
+Find permutation of numbers from 1 to *n* on which quicksort will perform the maximum number of comparisons. If there are several such permutations, output any of them (1&le;n&le;1<sup>6)
 
-h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
 
-h<sub>&theta;
-  
-1&ge;n&ge;10<sup>6
