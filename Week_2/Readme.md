@@ -17,3 +17,5 @@ Find number of inversions in a array of integers. Number of array elements n, <a
 Find permutation of numbers from 1 to *n* on which quicksort will perform the maximum number of comparisons. If there are several such permutations, output any of them <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;1\leq&space;n\leq&space;10^6" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;1\leq&space;n\leq&space;10^6" title="1\leq n\leq 10^6" /></a> 
 
 1&‌le;n&‌le;10<sup>6 
+  
+  $\Gamma(n) = (n-1)!/quad\forall n\in\mathbb N$
