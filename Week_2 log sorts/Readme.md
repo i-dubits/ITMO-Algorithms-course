@@ -1,4 +1,4 @@
-# Week 2 problems
+# Week 2 log sorts
 
 ### Number of inversions
 
