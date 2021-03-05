@@ -18,6 +18,6 @@ Find permutation of numbers from 1 to *n* on which quicksort will perform the ma
 
 h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
 
-$ge;
+h<sub>&theta;
   
 
