@@ -6,4 +6,4 @@ Solutions of some problems presented in ITMO course ["Algorithms and data struct
 Course was developed by the authors of the famous Edx course ["How to Win Coding Competitions: Secrets of Champions"](https://www.edx.org/course/how-to-win-coding-competitions-secrets-of-champion).
 
 Some problems are overllaped while others are completely new. 
-I have put here solutions to problems that gave me the most fun (and on which I spent the most time). 
+I have put here solutions to problems that I find interesting. 
