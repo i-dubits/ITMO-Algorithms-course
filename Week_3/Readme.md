@@ -1,8 +1,9 @@
 # Week 3 problems
 
-### Number of inversions
+### Regular bracket sequence
 
-Find number of inversions in a array of integers. Number of array elements is n (1&le;n&le;10<sup>5</sup>). Array elements are less than 10<sup>9</sup>. 
+Check if the bracket sequences which consists of "[" "]" "(" or ")" are regular.
+Number of bracket sequences (N&le;500</sup>). Length of each bracket sequence does not exceed 10<sup>4</sup>. 
 
 *Hint:* fast solution should use the modification of Merge sort.  
 
@@ -10,5 +11,5 @@ Find number of inversions in a array of integers. Number of array elements is n 
 
 *Memory limit:* 256 MB
 
-*File:* `inv_number.cpp`
+*File:* `brack_seq.cpp`
 
