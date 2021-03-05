@@ -64,11 +64,6 @@ bool if_less(my_array arg_1, my_array arg_2)
 }
 
 
-
-
-
-
-
 long partition_fast(my_array* arr, long low, long high)
 {
 	long pivot = arr[high].array_val;    // pivot
@@ -161,120 +156,6 @@ long  partition(my_array* arr, long l, long r)
 	return i;
 }
 
-// This function returns k'th smallest  
-// element in arr[l..r] using QuickSort  
-// based method.  ASSUMPTION: ALL ELEMENTS 
-// IN ARR[] ARE DISTINCT 
-long kthSmallest(my_array* arr, long l, long r, long k)
-{
-	// If k is smaller than number of  
-	// elements in array 
-	if (k > 0 && k <= r - l + 1) {
-
-		// Partition the array around last  
-		// element and get position of pivot  
-		// element in sorted array 
-		int index = partition(arr, l, r);
-
-		// If position is same as k 
-		if (index - l == k - 1)
-			return arr[index].array_val;
-
-		// If position is more, recur  
-		// for left subarray 
-		if (index - l > k - 1)
-		{
-			return kthSmallest(arr, l, index - 1, k);
-			//return kthSmallest(arr, l, index, k);
-		}
-		else
-		{
-			// Else recur for right subarray 
-			return kthSmallest(arr, index + 1, r, k - index + l - 1);
-			//return kthSmallest(arr, index + 1, r, k - index + l - 1);
-		}
-	}
-
-	// If k is more than number of  
-	// elements in array 
-	return LONG_MAX;
-}
-
-long kth_statistics(my_array* a, long left, long right, long k)
-{
-	//using std::swap;
-	for (long l = left, r = right; ; )
-	{
-		if (r <= l + 1)
-		{
-			// the current part size is either 1 or 2, so it is easy to find the answer
-			if (r == l + 1 && a[r].array_val < a[l].array_val)
-				swap_fast(&a[l], &a[r]);
-			return a[k].array_val;
-		}
-
-		// ordering a[l], a[l+1], a[r]
-		long mid = (l + r) >> 1;
-		swap_fast(&a[mid], &a[l + 1]);
-		if (a[l].array_val > a[r].array_val)
-			swap_fast(&a[l], &a[r]);
-
-		if (a[l + 1].array_val > a[r].array_val)
-			swap_fast(&a[l + 1], &a[r]);
-
-		if (a[l].array_val > a[l + 1].array_val)
-			swap_fast(&a[l], &a[l + 1]);
-
-		// performing division
-		// barrier is a[l + 1], i.e. median among a[l], a[l + 1], a[r]
-		long
-			i = l + 1,
-			j = r;
-		const long
-			cur = a[l + 1].array_val;
-		for (;;)
-		{
-			while (a[++i].array_val < cur);
-			while (a[--j].array_val > cur);
-			if (i > j)
-				break;
-			swap_fast(&a[i], &a[j]);
-		}
-
-		// inserting the barrier
-		a[l + 1] = a[j];
-		a[j] = cur;
-
-// we continue to work in that part, which must contain the required element
-if (j >= k)
-r = j - 1;
-if (j <= k)
-l = i;
-	}
-}
-
-
-my_array* k_1_k_2_smallest(my_array* arr, long l, long r, long k_1, long k_2)
-{
-	//my_array* res = new my_array[k_2 - k_1 + 1];
-	//int i = k_2 - k_1;
-	//kthSmallest(arr,  l,  r,  k_2);
-//kthSmallest(arr, l, k_2, k_1);
-
-/*for (long i = k_1; i <= k_2; i++)
-{
-	std::cout << arr[i].array_val << "      ";
-}*/
-
-	kth_statistics(arr, l, r, k_2);
-	kth_statistics(arr, l, k_2, k_1);
-
-	quickSort_fast(arr, k_1, k_2);
-
-	return arr;
-
-}
-
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -305,16 +186,6 @@ int _tmain(int argc, _TCHAR* argv[])
 		my_struct[i].id_init = i;
 	}
 
-	/*std::cout << "\nBefore sort" << "\n Values\n";
-	for (long i = 1; i <= n; i++)
-	{
-		std::cout << my_struct[i].array_val << " ";
-	}
-	std::cout << "\nBefore sort" << "\n Indices\n";
-	for (long i = 1; i <= n; i++)
-	{
-		std::cout << my_struct[i].id_init << " ";
-	}*/
 
 	quickSort_fast(my_struct, 1, n);
 
