@@ -1,4 +1,4 @@
-# Week 1 problems
+# Week 1 Quadratic sorts
 
 ### Secretary Swap
 
