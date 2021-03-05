@@ -15,4 +15,4 @@ Find number of inversions in a array of integers. Number of array elements n (1<
 ### Anti quicksort
 
 Find permutation of numbers from 1 to *n* on which quicksort will perform the maximum number of comparisons. If there are several such permutations, output any of them. 
-<img src="http://latex.codecogs.com/svg.latex?<div&space;lang="latex">&space;1\leq&space;n\leq&space;1e6</div>" title="http://latex.codecogs.com/svg.latex?<div lang="latex"> 1\leq n\leq 1e6</div>" />
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\frac{a}{b}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\frac{a}{b}" title="\frac{a}{b}" /></a>
