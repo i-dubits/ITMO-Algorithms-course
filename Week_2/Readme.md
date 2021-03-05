@@ -2,7 +2,7 @@
 
 ### Number of inversions
 
-Find number of inversions in a array of integers. Number of array elements n, <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\dpi{100}&space;1\leq&space;n\leq&space;10^5" target="_blank"><img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{100}&space;1\leq&space;n\leq&space;10^5" title="1\leq n\leq 10^5" /></a> . Array elements are less than 1e9. 
+Find number of inversions in a array of integers. Number of array elements n, <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\dpi{100}&space;1\leq&space;n\leq&space;10^5" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{100}&space;1\leq&space;n\leq&space;10^5" title="1\leq n\leq 10^5" /></a> . Array elements are less than 1e9. 
 
 *Hint:* fast solution should use the modification of Merge sort.  
 
