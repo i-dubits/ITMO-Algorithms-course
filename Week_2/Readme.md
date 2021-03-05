@@ -21,3 +21,15 @@ Find permutation of numbers from 1 to n on which quicksort will perform the maxi
 *Memory limit:* 256 MB
 
 *File:* `anti_quicksort.cpp`
+
+
+### Is sorting possible?
+
+For any i you can swap only i and (i+k)-th elements of the array. Number of array elements is n. Is it possible to sort it?  
+(1&le;n, k&le;10<sup>5</sup>)
+
+*Time limit:* 2 seconds
+
+*Memory limit:* 256 MB
+
+*File:* `is_sort.cpp`
