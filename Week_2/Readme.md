@@ -2,7 +2,7 @@
 
 ### Number of inversions
 
-Find number of inversions in a array of integers. Number of array elements n, 1&le;n&le;10<sup>5</sup>. Array elements are less than 10<sup>9</sup>. 
+Find number of inversions in a array of integers. Number of array elements is n (1&le;n&le;10<sup>5</sup>). Array elements are less than 10<sup>9</sup>. 
 
 *Hint:* fast solution should use the modification of Merge sort.  
 
