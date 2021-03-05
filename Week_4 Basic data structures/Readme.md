@@ -25,7 +25,7 @@ Input file contains the list of the following commands: "+" (add element to queu
 
 ### Polish postfix notation
 
-Evaluate the expression given in Polish postfix notation. Number of terms in expression (N&le;10<sup>6</sup>).
+Evaluate the expression given in Polish postfix notation. Number of terms in expression N&le;10<sup>6</sup>.
 
 *Time limit:* 2 seconds
 
