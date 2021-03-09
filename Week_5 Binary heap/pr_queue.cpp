@@ -1,6 +1,4 @@
 // Ilya Dubitskiy
-// Week_5_task_2_ver_5
-
 
 
 
