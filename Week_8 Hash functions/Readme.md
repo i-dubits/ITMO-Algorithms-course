@@ -27,3 +27,26 @@ Implement hash table that is capable to store integers from interval [0; 10<sup>
 *Memory limit:* 256 MB
 
 *File:* `hash_table.cpp`
+
+### String hash killer
+
+Polynomial hash functions can be implemented in the following way:
+
+'''
+      int multiple = ???;
+      public int hashOf(String s) {
+          int rv = 0;
+          for (int i = 0; i < s.length(); ++i) {
+              rv = multiple * rv + s.charAt(i);
+          }
+          return rv;
+      }
+'''
+
+Generate N (1&le;N&le;10<sup>4</sup>) different strings such that for any multiple m (2&le;m&le;1023) all these strings have the same hash value. String length should be less than 2500 characters. 
+
+*Time limit*: 2 seconds
+
+*Memory limit:* 256 MB
+
+*File:* `anti_hash.cpp`
