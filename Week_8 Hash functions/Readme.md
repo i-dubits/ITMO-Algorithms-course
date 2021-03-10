@@ -17,3 +17,13 @@ Keys and values are strings the length of which does not exceed 20 characters. N
 *Memory limit:* 256 MB
 
 *File:* `mod_array.cpp`
+
+### Fast hash table
+
+Implement hash table that is capable to store integers from interval [0; 10<sup>15</sup> - 1]. Hash table must support "add" operation and check if the element is in the table. Number of operations N&le;10<sup>7</sup>.
+
+*Time limit*: 5 seconds
+
+*Memory limit:* 256 MB
+
+*File:* `hash_table.cpp`
