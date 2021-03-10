@@ -32,7 +32,7 @@ Implement hash table that is capable to store integers from interval [0; 10<sup>
 
 Polynomial hash functions can be implemented in the following way:
 
-'''
+```
       int multiple = ???;
       public int hashOf(String s) {
           int rv = 0;
@@ -41,7 +41,7 @@ Polynomial hash functions can be implemented in the following way:
           }
           return rv;
       }
-'''
+```
 
 Generate N (1&le;N&le;10<sup>4</sup>) different strings such that for any multiple m (2&le;m&le;1023) all these strings have the same hash value. String length should be less than 2500 characters. 
 
