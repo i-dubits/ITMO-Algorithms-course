@@ -1,5 +1,5 @@
 // Ilya Dubitskiy
-// Week_8_task_3_ver_1
+// Week_8_task_3_ver_4
 
 
 #include "stdafx.h"
