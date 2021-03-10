@@ -1,4 +1,4 @@
-# Week 7 String-searching algorithms 1
+# Week 9 String-searching algorithms 1
 
 ### Palindrome
 
